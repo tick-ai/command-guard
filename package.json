@@ -1,0 +1,22 @@
+{
+  "name": "command-guard",
+  "version": "0.1.0",
+  "description": "Reads a shell command the way a shell does and decides allow, ask or deny before your AI agent runs it; a Claude Code PreToolUse hook and a checker.",
+  "type": "module",
+  "bin": {
+    "command-guard": "command-guard.mjs"
+  },
+  "files": ["command-guard.mjs", "README.md", "LICENSE"],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": ["claude-code", "hook", "shell", "security", "ai-agents", "guardrails", "rm-rf"],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tick-ai/command-guard.git"
+  }
+}
